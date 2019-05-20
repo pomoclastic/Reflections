@@ -5,3 +5,11 @@ When you initialize a repository, you have effectively created a copy of your fi
 2.  How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is different from the working directory and the repository in that it allows you to work on a file before making a commit, which shows up on the repo & it's different from the working directory as it's still part of Git.  It's important as it allows even more control over commits and when to make them so you can organize what changes belong to a single commit.
+
+3.  How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the staging area to carefully calibrate all the modifications which have been made and then organize them to create one commit per logical change.  You can then do multiple modifications without having to worry that they'll all be part of the same commit.
+
+4.  What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches help you to experiment with multiple versions of your original (master) branch in order to creatively influence your project and see its possible variations without the risk of losing what works.  You could, for example, create a version in other languages or a version which is easier or more difficult depending on the audience/users.  You could also introduce new characters into a game or website.  Perhaps, it's useful to create a difference for paid users and free ones, as well.  Also, maybe one needs various versions depending on different laws if utilized in different countries.
