@@ -15,6 +15,8 @@ Branching is useful to create different versions of one's projects either on Git
 
 4.  What is the benefit of having a copy of the last known state of the remote stored locally?
 
+It can make it easier to update if you need to work offline for whatever reason.  
+
 5.  How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
 6.  When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
