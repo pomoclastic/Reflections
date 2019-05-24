@@ -4,6 +4,9 @@ I imagine this would make sense when you're collaborating with others internatio
 
 2.  Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
+Essentially, I'd imagine this relates to the reasons for having manual version control, generally speaking, and whether a local or remote repository, in the first place, is more suitable to one's needs.  Manual version control, in general, can bolster and foster the conscientiousness of a programmer by cultivating a habit of conscious decision-making rather than relying on automated processes to replace thought in the decision-making process.
+Also, manual version control gives the programmer greater flexibility to organize commits in a more deliberate fashion.  As far as pulling, itself, from a remote repository, you might want to just keep or make a distinction between the local and remote repository when you're collaborating with others and maybe trying out your own versions of a project.
+
 3.  Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
 4.  What is the benefit of having a copy of the last known state of the remote stored locally?
