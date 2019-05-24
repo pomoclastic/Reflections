@@ -9,6 +9,10 @@ Also, manual version control gives the programmer greater flexibility to organiz
 
 3.  Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
+I'd fork another person's repository to give them credit for their work and to create my own repository of their work on my account, which I could then do as I please with.
+Cloning is what I'd do with my own repository either pulling it from GitHub to my local repository or pushing it to GitHub from my own local repository.  I would also use cloning to copy the repository from my computer to another local directory.
+Branching is useful to create different versions of one's projects either on GitHub &/or on a local directory.
+
 4.  What is the benefit of having a copy of the last known state of the remote stored locally?
 
 5.  How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
