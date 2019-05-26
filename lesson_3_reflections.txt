@@ -25,3 +25,8 @@ What would be, perhaps, easier might be some of the flexibility of not needing t
 I'd imagine what'd be harder would be needing to communicate even more actively about changes & finding ways to update each other.  If the new system does not have an ability to revert changes in code, examine its history of modifications somehow and/or branching, it might be more difficult to find bugs, experiment with various versions, and/or have a way to learn from mistakes and see how mistakes were made.
 
 6.  When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+
+One would want to make changes in a separate branch rather than directly in master when one is collaborating with others and would like to try out certain changes without impacting the work of colleagues before they give feedback as to whether those changes should be in the master branch or to allow them to have the up-to-date version, which would minimize conflicts between the master and their local repository.
+One would also want to make changes in a separate branch when one is working on multiple versions of the same code and trying to experiment without disrupting the master branch.  As mentioned by one of the previously interviewed, the master branch is what one would also showcase to the public being as pristine as possible while the other branches allow for private experimentation and testing before debuting in the master branch.
+
+Working directly on the master branch, on the other hand, allows one to avoid having merge conflicts and can simplify the process without having to deal with multiple branches and the consequent extra commits.
