@@ -1,4 +1,4 @@
-1.  When would you want to use a remote repository rather than keeping all your work local?
+ 1.  When would you want to use a remote repository rather than keeping all your work local?
 
 I imagine this would make sense when you're collaborating with others internationally &/or as part of multiple companies/organizations.  Whereas, if one were to work solely within the same building with access to the same intranet system, a remote repository wouldn't be necessary.
 
@@ -15,8 +15,13 @@ Branching is useful to create different versions of one's projects either on Git
 
 4.  What is the benefit of having a copy of the last known state of the remote stored locally?
 
-It can make it easier to update if you need to work offline for whatever reason.  
+It can make it easier to update if you need to work offline for whatever reason.
 
 5.  How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+
+I would collaborate without either Git or GitHub by either utilizing similar platforms for version control or devising a system with my collaborators to organize collaboration and version control efforts.
+If collaboration were within a company, we could use the company's intranet system for collaboration, for example.  Otherwise, if collaboration were more remote, we could use collaboration systems of whatever institute or company and/or create one.
+What would be, perhaps, easier might be some of the flexibility of not needing to have the various steps taken within Git or GitHub.
+I'd imagine what'd be harder would be needing to communicate even more actively about changes & finding ways to update each other.  If the new system does not have an ability to revert changes in code, examine its history of modifications somehow and/or branching, it might be more difficult to find bugs, experiment with various versions, and/or have a way to learn from mistakes and see how mistakes were made.
 
 6.  When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
